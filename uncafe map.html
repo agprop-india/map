@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_046b2e60408effbe2983ab8f9e25dd2f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_046b2e60408effbe2983ab8f9e25dd2f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_046b2e60408effbe2983ab8f9e25dd2f = L.map(
+                "map_046b2e60408effbe2983ab8f9e25dd2f",
+                {
+                    center: [28.5528624, 77.2167883],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3f31eb40d82fb825ab312e09cac43876 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_046b2e60408effbe2983ab8f9e25dd2f);
+        
+    
+            var marker_0444543081807275ae368b339edec088 = L.marker(
+                [28.5288449, 77.2182968],
+                {}
+            ).addTo(map_046b2e60408effbe2983ab8f9e25dd2f);
+        
+    
+            var icon_09f65a0a6d14dc251d308a85c32f3872 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0444543081807275ae368b339edec088.setIcon(icon_09f65a0a6d14dc251d308a85c32f3872);
+        
+    
+        var popup_e8a3f16ea779d93051ae4c2ed8234db4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_321661726da40ebe4d400b5ce58bbb96 = $(`<div id="html_321661726da40ebe4d400b5ce58bbb96" style="width: 100.0%; height: 100.0%;">Brand: Uncafe Type_of_RE: Mall Area Name: Saket Nearest Brand: Uncafe Distance: 0.00 km</div>`)[0];
+                popup_e8a3f16ea779d93051ae4c2ed8234db4.setContent(html_321661726da40ebe4d400b5ce58bbb96);
+            
+        
+
+        marker_0444543081807275ae368b339edec088.bindPopup(popup_e8a3f16ea779d93051ae4c2ed8234db4)
+        ;
+
+        
+    
+    
+            var circle_51a501ebaa0bf403a60dcf228bb9dbd3 = L.circle(
+                [28.5288449, 77.2182968],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_046b2e60408effbe2983ab8f9e25dd2f);
+        
+    
+            var marker_31263b0317b9ed7b649a582c9a281f5f = L.marker(
+                [28.5559008, 77.2019294],
+                {}
+            ).addTo(map_046b2e60408effbe2983ab8f9e25dd2f);
+        
+    
+            var icon_4f637accb4a893f9b8d4294f2924fcd2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_31263b0317b9ed7b649a582c9a281f5f.setIcon(icon_4f637accb4a893f9b8d4294f2924fcd2);
+        
+    
+        var popup_d663be8d26e1031f6c553f71abf54675 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcfabf868fdf3c20fd9c6024d72b170d = $(`<div id="html_dcfabf868fdf3c20fd9c6024d72b170d" style="width: 100.0%; height: 100.0%;">Brand: Uncafe Type_of_RE: HSM Area Name: Green Park Nearest Brand: Uncafe Distance: 0.00 km</div>`)[0];
+                popup_d663be8d26e1031f6c553f71abf54675.setContent(html_dcfabf868fdf3c20fd9c6024d72b170d);
+            
+        
+
+        marker_31263b0317b9ed7b649a582c9a281f5f.bindPopup(popup_d663be8d26e1031f6c553f71abf54675)
+        ;
+
+        
+    
+    
+            var circle_e6aa83c0fd2f4927ec8a86c0379cfd18 = L.circle(
+                [28.5559008, 77.2019294],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_046b2e60408effbe2983ab8f9e25dd2f);
+        
+    
+            var marker_a6f8e65eb1fe92e995ba89d34bb104e1 = L.marker(
+                [28.5738415, 77.2301387],
+                {}
+            ).addTo(map_046b2e60408effbe2983ab8f9e25dd2f);
+        
+    
+            var icon_b0ab2fe18b7c6a0ff951587e4d82722d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a6f8e65eb1fe92e995ba89d34bb104e1.setIcon(icon_b0ab2fe18b7c6a0ff951587e4d82722d);
+        
+    
+        var popup_46f6193dcaeedfd556d6fea521b20c03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78b314f847c866431c1e70530635918b = $(`<div id="html_78b314f847c866431c1e70530635918b" style="width: 100.0%; height: 100.0%;">Brand: Suggested Location Type_of_RE: HSM Area Name: Defence Colony Nearest Brand: Suggested Location Distance: 0.00 km</div>`)[0];
+                popup_46f6193dcaeedfd556d6fea521b20c03.setContent(html_78b314f847c866431c1e70530635918b);
+            
+        
+
+        marker_a6f8e65eb1fe92e995ba89d34bb104e1.bindPopup(popup_46f6193dcaeedfd556d6fea521b20c03)
+        ;
+
+        
+    
+    
+            var circle_d73675c5c624f24dcdd2e853ba1e174d = L.circle(
+                [28.5738415, 77.2301387],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_046b2e60408effbe2983ab8f9e25dd2f);
+        
+</script>
+</html>
